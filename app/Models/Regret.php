@@ -29,6 +29,7 @@ class Regret extends Model
         'image_url_4',
         'image_url_5',
         'message_to_others',
+    
     ];
 
     public function user()
