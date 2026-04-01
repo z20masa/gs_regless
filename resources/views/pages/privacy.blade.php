@@ -32,7 +32,7 @@
             </section>
 
             <div class="mt-10 text-center">
-                <a href="/" class="inline-block px-6 py-2 bg-green-600 text-white rounded-full hover:bg-green-700 transition font-bold shadow-lg">
+                <a href="{{ url('/') }}" class="inline-block px-6 py-2 bg-green-600 text-white rounded-full hover:bg-green-700 transition font-bold shadow-lg">
                     トップページに戻る
                 </a>
             </div>

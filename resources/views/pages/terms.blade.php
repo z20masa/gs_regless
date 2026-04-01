@@ -31,7 +31,7 @@
             </section>
 
             <div class="mt-10 text-center">
-                <a href="/" class="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">
+                <a href="{{ url('/') }}" class="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">
                     トップページに戻る
                 </a>
             </div>
