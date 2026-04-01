@@ -40,9 +40,14 @@
                 アカウントをお持ちでないですか？ 
                 <a href="{{ route('register') }}" class="text-emerald-600 hover:underline font-bold ml-1">新規登録</a>
             </div>
-            <a href="/" class="text-gray-400 hover:text-gray-600 transition-colors">
+            {{-- <a href="/" class="text-gray-400 hover:text-gray-600 transition-colors">
+                ← トップページへ戻る
+            </a> --}}
+
+            <a href="{{ url('/') }}" class="text-gray-400 hover:text-gray-600 transition-colors">
                 ← トップページへ戻る
             </a>
+            
         </div>
     </div>
 </div>
